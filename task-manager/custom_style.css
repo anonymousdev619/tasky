@@ -1,0 +1,16 @@
+.task.done{
+  background: lightgreen;
+}
+
+.task.todo{
+  background: lightgoldenrodyellow;
+}
+
+.description{
+  color: slategrey;
+  font-weight: bold;
+}
+
+.task.done label{
+  text-decoration: line-through;
+}
