@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Task-Manager</title>
     <script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.min.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.3.2/dist/semantic.min.css">
@@ -16,10 +17,10 @@
         <b><i class="icon tasks yellow"></i>Task-Organizer</b>
       </div>
       <div class="ui message yellow">
-        This page is not backed by a DB!.
+        This page is not backed by a DB!
       </div>
-      <div class="ui message blue">
-        Use this Tool to manage your tasks/schedules. Have fun!
+      <div class="ui message white">
+        <i class="icon github big"></i><a href="https://github.com/manojnaidu619/task-organizer">Pay a Visit!</a>
       </div>
       <div class="ui message green" v-if="message">
         {{ message }}
